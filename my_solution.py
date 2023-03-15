@@ -11,7 +11,8 @@ from rclpy.qos import QoSProfile
 from rclpy.qos import QoSReliabilityPolicy, QoSHistoryPolicy
 
 # SPEED = 20.0
-SPEED = 10.0
+SPEED = 17.0
+# SPEED = 10.0
 
 qos_profile = QoSProfile(
     reliability=QoSReliabilityPolicy.RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT,
